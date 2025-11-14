@@ -299,8 +299,8 @@ public class View extends javax.swing.JFrame {
             // ----------------------------------------
             // REMOVE ALSO FROM TXT FILE
             // ----------------------------------------
-            File file = new File("C:/Cona/student_tbl.txt");
-            File temp = new File("C:/Cona/temp.txt");
+            File file = new File("C:/2A/student_tbl.txt");
+            File temp = new File("C:/2A/temp.txt");
 
             BufferedReader br = new BufferedReader(new FileReader(file));
             BufferedWriter bw = new BufferedWriter(new FileWriter(temp));
@@ -383,7 +383,7 @@ public class View extends javax.swing.JFrame {
         // -----------------------------
         // ADD ALSO TO TXT FILE
         // -----------------------------
-        File file = new File(""
+        File file = new File("student_tbl.txt"
                 + "");
 
         if (!file.exists()) {
