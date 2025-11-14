@@ -41,7 +41,7 @@ public class View extends javax.swing.JFrame {
      public void Connect(){
        try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = (Connection)  DriverManager.getConnection("jdbc:mysql://localhost/abosdatabase","root","");
+            con = (Connection)  DriverManager.getConnection("jdbc:mysql://localhost/newdatabase","root","");
         } catch (ClassNotFoundException | SQLException ex ) {
        
         }
